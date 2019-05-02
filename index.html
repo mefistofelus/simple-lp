@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>P_FOLIO-HTML #2</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="libs/owlcarousel/dist/assets/owl.carousel.min.css">
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="container d-flex justify-between">
+                <div class="header__logo">
+                    <a href="#" class="header__logo--picture">
+                        <img class="logo__picture" src="img/logo.png" alt="Логотип: vm_tech">
+                    </a>
+                </div>
+                <div class="header__contact">
+                    <a class="header__contact--phone d-block" href="tel:+ 38 (063) 456-78-90">+ 38 (063) 456-78-90</a>
+                    <a class="header__contact--email" href="mailto:support@vm_fed.ua">support@vm_fed.ua</a>
+                </div>
+            </div>
+            
+            <div class="container">
+                <nav class="top__nav" >
+                    <div class="nav__btn">
+                        <button type="button" data-target="#nav__main" class="btn__burger">
+                            <span class="btn__line"></span>
+                            <span class="btn__line"></span>
+                            <span class="btn__line"></span>
+                        </button>
+                    </div>
+                    <ul class="nav__menu d-flex justify-between" id="nav__main">
+                        <li><a class="nav__menu--item" href="#">Главная</a></li>
+                        <li><a class="nav__menu--item" href="#">О нас</a></li>
+                        <li><a class="nav__menu--item" href="#">Новости</a></li>
+                        <li><a class="nav__menu--item" href="#">Новинки</a></li>
+                        <li><a class="nav__menu--item" href="#">Доставка</a></li>
+                        <li><a class="nav__menu--item" href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="slider">
+        <div class="owl-carousel">
+            <div class="slider__item" style="background-image: url(img/slider-img.jpg);"></div>
+            <div class="slider__item" style="background-image: url(img/slider-img.jpg);"></div>
+            <div class="slider__item" style="background-image: url(img/slider-img.jpg);"></div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="row">
+            <div class="container">
+                <h2 class="section__title text-center">О нас</h2>
+                <div class="section__description">
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                    <p>Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется <a class="link" href="#">Lorem Ipsum</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="feature">
+        <div class="row">
+            <div class="container">
+                <h2 class="section__title text-center">Популярные разделы</h2>
+                <div class="feature__categories d-flex">
+                    <a href="#" class="feature__categories--item d-block">
+                        <img class="feature__categories--picture d-block" src="img/categories__picture--smartphone.jpg" alt="Смартфоны">
+                        <span class="feature__categories--overlay">
+                            <span class="feature__categories--title text-center">Смартфоны</span>
+                        </span>
+                    </a>
+                    <a href="#" class="feature__categories--item d-block">
+                        <img class="feature__categories--picture d-block" src="img/categories__picture--notebook.jpg" alt="Ноутбуки">
+                        <span class="feature__categories--overlay">
+                            <span class="feature__categories--title text-center">Ноутбуки</span>
+                        </span>
+                    </a>
+                    <a href="#" class="feature__categories--item d-block">
+                        <img class="feature__categories--picture d-block" src="img/categories__picture--microphone.jpg" alt="Микрофоны">
+                        <span class="feature__categories--overlay">
+                            <span class="feature__categories--title text-center">Микрофоны</span>
+                        </span>
+                    </a>
+                    <a href="#" class="feature__categories--item d-block">
+                        <img class="feature__categories--picture d-block" src="img/categories__picture--playstation.jpg" alt="Игровые приставки">
+                        <span class="feature__categories--overlay">
+                            <span class="feature__categories--title text-center">Игровые приставки</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="adventages">
+            <div class="row">
+                <div class="container">
+                    <h2 class="section__title text-center">Наши преимущества</h2>
+                    <div class="adventages__list d-flex justify-between">
+                        <div class="adventage__item text-center">
+                            <div class="adventage__item--icon">
+                                <img src="img/advantage-1.svg" alt="Поддержка">
+                            </div>
+                            <h3 class="adventage__item--title">Поддержка 24/7</h3>
+                            <p class="adventage__item--description">Рыбным текстом называется текст, служащий для временного наполнения макета в публикациях или производстве веб-сайтов, пока финальный текст еще не создан.</p>
+                        </div>
+                        <div class="adventage__item text-center">
+                            <div class="adventage__item--icon">
+                                <img src="img/advantage-2.svg" alt="Интерфейс">
+                            </div>
+                            <h3 class="adventage__item--title">Удобный интерфейс</h3>
+                            <p class="adventage__item--description">Рыбным текстом называется текст, служащий для временного наполнения макета в публикациях или производстве веб-сайтов, пока финальный текст еще не создан.</p>
+                        </div>
+                        <div class="adventage__item text-center">
+                            <div class="adventage__item--icon">
+                                <img src="img/advantage-3.svg" alt="Гибкость">
+                            </div>
+                            <h3 class="adventage__item--title">Гибкая настройка</h3>
+                            <p class="adventage__item--description">Рыбным текстом называется текст, служащий для временного наполнения макета в публикациях или производстве веб-сайтов, пока финальный текст еще не создан.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer__content">
+                <div class="container">
+                    <div class="footer__copy">Vasiliy Manilo &#169; 2018</div>
+                    <a class="footer__link" href="#">vm_fed.ru</a>
+                </div>
+            </div>
+        </footer>
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="libs/owlcarousel/dist/owl.carousel.min.js"></script>
+    <!-- Custom js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

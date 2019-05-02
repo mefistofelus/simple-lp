@@ -1,0 +1,58 @@
+@media all and (max-width: 992px){
+    html{
+        font-size: 90%;
+    }
+    .slider__item{
+        height: 18rem;
+    }
+}
+
+@media all and (max-width: 768px){
+    html{
+        font-size: 85%;
+    }
+    .adventage__item{
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 642px){
+    html {
+		font-size: 82%;
+	}
+    .d-flex{
+        flex-direction: column;
+    }
+    .header__logo,
+    .header__contact{
+        margin: .5rem auto;
+    }
+    .nav__btn{
+        display: block;
+    }
+    .nav__menu{
+        display: none;
+    }
+    .nav__menu--item{
+        display: inline-block;
+        padding: .8rem;
+    }
+    .show{
+        display: block;
+    }
+    .slider__item {
+		height: 16rem;
+	}
+    .adventage__item{
+        margin: 0 auto;
+    }
+    .adventage__item{
+        width: 80%;
+    }
+    .feature__categories--item,
+    .feature__categories--item:nth-child(even){
+        width: 80%;
+        margin:0 auto;
+        margin-bottom: 1%;
+    }
+}
